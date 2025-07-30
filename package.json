@@ -1,0 +1,28 @@
+{
+  "name": "creating-nodes-server",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/samuelkime267/first-node-server#readme",
+  "bugs": {
+    "url": "https://github.com/samuelkime267/first-node-server/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelkime267/first-node-server.git"
+  },
+  "license": "ISC",
+  "author": "Samuel Kime",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0"
+  }
+}
